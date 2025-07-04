@@ -4,14 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Joyce F. Follante Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
       background-color: #111;
-      color: #fff;
+      color: white;
       font-family: Arial, sans-serif;
+      text-align: center;
       margin: 0;
       padding: 0;
-      text-align: center;
     }
     header, section {
       margin: 40px auto;
@@ -26,10 +27,9 @@
     }
     .certificate {
       width: 100%;
-      max-width: 600px;
+      max-width: 500px;
       margin: 10px auto;
       display: block;
-      border-radius: 6px;
     }
     .button {
       display: inline-block;
@@ -39,32 +39,23 @@
       color: #111;
       text-decoration: none;
       border-radius: 5px;
-      font-weight: bold;
-    }
-    ul {
-      text-align: left;
-      display: inline-block;
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>Joyce F. Follante</h1>
     <p>Freelance Notetaker | Transcriber | Clerk</p>
   </header>
 
-  <section>
+  <section id="about">
     <h2>About Me</h2>
     <div class="card">
-      <p>
-        Detail-oriented professional with extensive experience in note-taking, transcription, and administrative support roles.
-        Proven ability to meet deadlines, adapt to different platforms, and prioritize tasks in fast-paced environments.
-      </p>
+      <p>Detail-oriented professional with extensive experience in note-taking, transcription, and administrative support roles. Proven ability to meet deadlines, adapt to different platforms, and prioritize tasks in fast-paced environments.</p>
     </div>
   </section>
 
-  <section>
+  <section id="experience">
     <h2>Experience</h2>
 
     <div class="card">
@@ -84,10 +75,11 @@
     </div>
 
     <div class="card">
-      <h3>Leidenschaft Academic Support Service Inc. (2021)</h3>
+      <h3>Leidenschaft Academic Support Service Incorporated (LASSI)</h3>
       <p>Home-Based Recorded Notetaker</p>
+      <p><strong>September 19, 2021 - December 31, 2021</strong></p>
       <ul>
-        <li>Made summary notes for students with disabilities.</li>
+        <li>Making summary notes for students with disabilities.</li>
       </ul>
     </div>
 
@@ -103,7 +95,7 @@
       <h3>Bytedance Ltd. (2020)</h3>
       <p>Content Reviewer</p>
       <ul>
-        <li>Reviewed TikTok content uploads for quality and policy adherence.</li>
+        <li>Reviewed content uploaded on TikTok.</li>
       </ul>
     </div>
 
@@ -111,7 +103,7 @@
       <h3>T-ZONE Cell Phone Shopper (2018–2019)</h3>
       <p>Sales Clerk</p>
       <ul>
-        <li>Assisted customers and managed store inventory.</li>
+        <li>Assisted customers and handled store inventory.</li>
       </ul>
     </div>
 
@@ -119,7 +111,7 @@
       <h3>Zenco Footstep Tuguegarao (2016–2018)</h3>
       <p>Sales Clerk</p>
       <ul>
-        <li>Provided customer service and maintained displays.</li>
+        <li>Provided customer service and organized merchandise.</li>
       </ul>
     </div>
 
@@ -127,16 +119,17 @@
       <h3>KRC and FRC Cellphone Center (2014–2016)</h3>
       <p>Cashier / Sales Clerk</p>
       <ul>
-        <li>Processed sales transactions and helped clients.</li>
+        <li>Processed sales transactions and assisted walk-in clients.</li>
       </ul>
     </div>
   </section>
 
-  <section>
+  <section id="education">
     <h2>Education</h2>
     <div class="card">
-      <h3>Saint Louis University of Tuguegarao</h3>
+      <h3>University of Saint Louis Tuguegarao</h3>
       <p>Bachelor of Science in Commerce</p>
+      <p>1999 - 2004</p>
     </div>
     <div class="card">
       <h3>Pattao National High School Annex, Buguey Cagayan Valley</h3>
@@ -150,21 +143,21 @@
     </div>
   </section>
 
-  <section>
+  <section id="personal-info">
     <h2>Personal Information</h2>
     <div class="card">
       <ul>
         <li><strong>Date of Birth:</strong> October 16, 1982</li>
         <li><strong>Nationality:</strong> Filipino</li>
-        <li><strong>Height:</strong> 5’3"</li>
-        <li><strong>Weight:</strong> 90kgs</li>
+        <li><strong>Height:</strong> 5’3</li>
+        <li><strong>Weight:</strong> 90kgs.</li>
         <li><strong>Father’s Name:</strong> Constante Follante (deceased)</li>
         <li><strong>Mother’s Name:</strong> Felicitas F. Follante (deceased)</li>
       </ul>
     </div>
   </section>
 
-  <section>
+  <section id="contact">
     <h2>Contact</h2>
     <div class="card">
       <p><strong>Phone:</strong> +639158338938</p>
@@ -172,22 +165,19 @@
     </div>
   </section>
 
-  <section>
+  <section id="certificates">
     <h2>Certifications</h2>
     <div class="card">
       <img src="2022.jpg" alt="Certificate 1" class="certificate" />
-      <img src="certificate_commendation_joyce.jpg" alt="Certificate 2" class="certificate" />
+      <img src="Certificate of Commendation - Joyce Follante.jpg" alt="Certificate 2" class="certificate" />
     </div>
   </section>
 
-  <section>
+  <section id="sample">
     <h2>Sample Work</h2>
     <div class="card">
-      <a href="Social Psych_ Persuasion.docx" class="button" download>
-        Download Sample Note (Word)
-      </a>
+      <a href="Social Psych_ Persuasion.docx" class="button" download>Download Sample Note (Word)</a>
     </div>
   </section>
-
 </body>
 </html>
